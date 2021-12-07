@@ -71,7 +71,6 @@ fileReader.readFileLineByLine("data.txt").then(data => {
     });
 
     number = parseInt(number);
-    console.log(lastWinner);
     console.log(number * sum);
 });
 
